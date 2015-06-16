@@ -4,7 +4,7 @@
     "type": "lib",
     "description": "Add some traits to help you creating entities",
     "autoload": {
-        "psr-0": { "steevanb\\sf2-entity-utils\\": "" }
+        "psr-0": { "steevanb\\EntityUtils\\": "" }
     },
     "require": {
       "php": ">=5.4",
