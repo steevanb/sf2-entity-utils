@@ -2,8 +2,6 @@
 
 namespace steevanb\EntityUtils\Traits;
 
-use Doctrine\ORM\Mapping as ORM;
-
 /**
  * This trait need a property named $email
  */
