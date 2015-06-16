@@ -1,0 +1,32 @@
+Traits for entities
+-------------------
+
+You will find a lot of traits in steevanb\sf2-utils-traits\Traits namespace, to help you creating your entities.
+
+All traits have a property, and accessors.
+
+By default, annotations set nullable=false, but you can use NullableFoo to have nullable=true.
+
+Some traits can be translated, with @Gedmo\Translatable annotation, and are prefixed by Translatable.
+
+Exemples
+--------
+
+- Description is not nullable, not translated
+- NullableDescription is nullable, not translated
+- TranslatableNullableDescription is nullable, translated
+
+Traits
+------
+
+- [Id](../../Entity/Traits/Id.php)
+- [Date](../../Entity/Traits/Date.php)
+- [DateTime](../../Entity/Traits/DateTime.php)
+- [Description](../../Entity/Traits/Description.php)
+- [Name](../../Entity/Traits/Name.php)
+- [Slug](../../Entity/Traits/Slug.php)
+- [Title](../../Entity/Traits/Title.php)
+- [EMail](../../Entity/Traits/EMail.php)
+- [Message](../../Entity/Traits/Message.php)
+
+[Back to index](../../README.md)
