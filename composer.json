@@ -1,0 +1,20 @@
+{
+    "name": "steevanb/sf2-entity-utils",
+    "license": "MIT",
+    "type": "lib",
+    "description": "Add some traits to help you creating entities",
+    "autoload": {
+        "psr-0": { "steevanb\\sf2-entity-utils\\": "" }
+    },
+    "require": {
+      "php": ">=5.4",
+      "symfony/symfony": "2.*"
+    },
+    "target-dir": "steevanb/sf2-entity-utils",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/steevanb/sf2-entity-utils.git"
+        }
+    ]
+}
