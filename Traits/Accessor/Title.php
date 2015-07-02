@@ -1,11 +1,11 @@
 <?php
 
-namespace steevanb\EntityUtils\Traits;
+namespace steevanb\EntityUtils\Traits\Accessor;
 
 /**
  * This trait need a property named $title
  */
-trait TitleAccessors
+trait Title
 {
     /**
      * @param string $title

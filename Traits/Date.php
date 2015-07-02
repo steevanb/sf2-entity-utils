@@ -2,19 +2,17 @@
 
 namespace steevanb\EntityUtils\Traits;
 
-use Doctrine\ORM\Mapping as ORM;
+use steevanb\EntityUtils\Traits\Accessor\Date as DateAccessor;
 
 /**
- * Add a property named $date, and it's accessors (setDate(), getDate())
- * Can't be null
+ * Add a property $date, and it's accessors (setDate(), getDate())
  */
 trait Date
 {
-    use DateAccessors;
+    use DateAccessor;
 
     /**
      * @var \DateTime
-     * @ORM\Column(name="date", type="date")
      */
-    private $date;
+    protected $date;
 }

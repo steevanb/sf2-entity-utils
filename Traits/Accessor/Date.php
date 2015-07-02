@@ -1,11 +1,11 @@
 <?php
 
-namespace steevanb\EntityUtils\Traits;
+namespace steevanb\EntityUtils\Traits\Accessor;
 
 /**
- * This trait need a property named $description
+ * This trait need a property named $date
  */
-trait DateAccessors
+trait Date
 {
     /**
      * @param \DateTime $date
