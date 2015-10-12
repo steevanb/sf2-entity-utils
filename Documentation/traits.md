@@ -19,14 +19,15 @@ Exemples
 Traits
 ------
 
-- [Id](../Traits/Id.php)
-- [Date](../Traits/Date.php)
-- [DateTime](../Traits/DateTime.php)
-- [Description](../Traits/Description.php)
-- [Name](../Traits/Name.php)
-- [Slug](../Traits/Slug.php)
-- [Title](../Traits/Title.php)
-- [EMail](../Traits/EMail.php)
-- [Message](../Traits/Message.php)
+- [Id](../Entity/IdTrait.php)
+- [Date](../Entity/DateTrait.php)
+- [DateTime](../Entity/DateTimeTrait.php)
+- [Description](../Entity/DescriptionTrait.php)
+- [Name](../Entity/NameTrait.php)
+- [Slug](../Entity/SlugTrait.php)
+- [Title](../Entity/TitleTrait.php)
+- [EMail](../Entity/EMailTrait.php)
+- [Message](../Entity/MessageTrait.php)
+- [Url](../Entity/UrlTrait.php)
 
 [Back to index](../README.md)
