@@ -7,8 +7,7 @@
         "psr-4": { "steevanb\\EntityUtils\\": "" }
     },
     "require": {
-      "php": ">=5.4",
-      "symfony/symfony": "2.*"
+      "php": ">=5.4"
     },
     "repositories": [
         {
