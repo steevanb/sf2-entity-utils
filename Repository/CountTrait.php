@@ -2,8 +2,17 @@
 
 namespace steevanb\EntityUtils\Repository;
 
+use Doctrine\ORM\QueryBuilder;
+
 trait CountTrait
 {
+    /**
+     * @param string $alias
+     * @param string $indexBy
+     * @return QueryBuilder
+     */
+    abstract public function createQueryBuilder($alias, $indexBy = null);
+
     /**
      * @return int
      */
