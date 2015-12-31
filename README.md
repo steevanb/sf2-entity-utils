@@ -1,4 +1,4 @@
-[![version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/steevanb/sf2-entity-utils/tree/1.0.0)
+[![version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/steevanb/sf2-entity-utils/tree/1.0.1)
 [![symfony](https://img.shields.io/badge/symfony-%3E%3D%202.3-blue.svg)](https://symfony.com/)
 ![Total Downloads](https://poser.pugx.org/steevanb/sf2-entity-utils/downloads)
 [![SensionLabsInsight](https://img.shields.io/badge/SensionLabsInsight-platinum-brightgreen.svg)](https://insight.sensiolabs.com/projects/0098ee02-6361-438d-a219-120ade5040ac/analyses/8)
