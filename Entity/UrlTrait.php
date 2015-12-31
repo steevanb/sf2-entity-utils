@@ -14,5 +14,5 @@ trait UrlTrait
     /**
      * @var string
      */
-    protected $name;
+    protected $url;
 }
