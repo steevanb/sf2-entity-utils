@@ -2,12 +2,12 @@
     "name": "steevanb/sf2-entity-utils",
     "license": "MIT",
     "type": "lib",
-    "description": "Add some traits to help you creating entities",
+    "description": "Add some traits to help you add properties to entities, and usefull methods to repositories",
     "autoload": {
         "psr-4": { "steevanb\\EntityUtils\\": "" }
     },
     "require": {
-      "php": ">=5.4"
+        "php": ">=5.4"
     },
     "repositories": [
         {
