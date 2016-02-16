@@ -34,7 +34,7 @@ trait GetTrait
      */
     protected function assertIsEntity($entity, array $criteria)
     {
-        if ($entity instanceof \stdClass === false) {
+        if (is_object($entity) === false) {
             $message = 'Entity of type "' . $this->getClassMetadata()->getName() . '"';
             $criteriaForMessage = [];
             foreach ($criteria as $name => $value) {
